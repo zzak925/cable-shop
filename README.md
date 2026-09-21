@@ -2,6 +2,10 @@
 
 USB 케이블 전문 매장 운영 관리 웹툴을 위한 데이터베이스 설계표입니다.
 
+실제 Supabase/PostgreSQL에 적용할 수 있는 SQL 스키마 파일:
+
+- `supabase/migrations/001_initial_schema.sql`
+
 ## 설계 기준
 
 - 1차 목표: 재고 정확도, 입고/판매 기록, 발주 필요 상품 확인, 직원 마감 보고

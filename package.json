@@ -1,0 +1,12 @@
+{
+  "name": "cable-shop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "USB 케이블 전문 매장 운영 관리 웹툴 데이터베이스 설계",
+  "scripts": {
+    "validate:sql": "node scripts/validate-sql.js supabase/migrations/001_initial_schema.sql"
+  },
+  "devDependencies": {
+    "pgsql-ast-parser": "^12.0.1"
+  }
+}
