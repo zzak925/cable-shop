@@ -2,11 +2,27 @@
   "name": "cable-shop",
   "version": "0.1.0",
   "private": true,
-  "description": "USB 케이블 전문 매장 운영 관리 웹툴 데이터베이스 설계",
+  "description": "USB 케이블 전문 매장 운영 관리 웹툴",
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
     "validate:sql": "node scripts/validate-sql.js supabase/migrations/001_initial_schema.sql"
   },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4",
+    "next": "^16.3.5",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
   "devDependencies": {
-    "pgsql-ast-parser": "^12.0.1"
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "eslint": "^9.36.0",
+    "eslint-config-next": "^16.3.5",
+    "pgsql-ast-parser": "^12.0.1",
+    "typescript": "^5.9.2"
   }
 }
